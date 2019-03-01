@@ -13,6 +13,7 @@
 		66C464352229AD390006963A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66C464332229AD390006963A /* Main.storyboard */; };
 		66C464372229AD3B0006963A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66C464362229AD3B0006963A /* Assets.xcassets */; };
 		66C4643A2229AD3B0006963A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66C464382229AD3B0006963A /* LaunchScreen.storyboard */; };
+		66C464432229B4FD0006963A /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C464422229B4FD0006963A /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		66C464362229AD3B0006963A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66C464392229AD3B0006963A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66C4643B2229AD3B0006963A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66C464422229B4FD0006963A /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		72AB245A73CC6C0B7824ABAE /* Pods_RxSwiftLoginView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftLoginView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0C5ABA54667FFD72FE90F84 /* Pods-RxSwiftLoginView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftLoginView.release.xcconfig"; path = "Target Support Files/Pods-RxSwiftLoginView/Pods-RxSwiftLoginView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,6 +69,7 @@
 				66C464362229AD3B0006963A /* Assets.xcassets */,
 				66C464382229AD3B0006963A /* LaunchScreen.storyboard */,
 				66C4643B2229AD3B0006963A /* Info.plist */,
+				66C464422229B4FD0006963A /* LoginViewModel.swift */,
 			);
 			path = RxSwiftLoginView;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 			files = (
 				66C464322229AD390006963A /* ViewController.swift in Sources */,
 				66C464302229AD390006963A /* AppDelegate.swift in Sources */,
+				66C464432229B4FD0006963A /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
