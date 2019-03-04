@@ -7,6 +7,7 @@ target 'RxBasics' do
 
   # Pods for RxBasics
   pod 'SwiftLint'
+  pod 'RxCocoa'
   pod 'RxSwift'
 
 end

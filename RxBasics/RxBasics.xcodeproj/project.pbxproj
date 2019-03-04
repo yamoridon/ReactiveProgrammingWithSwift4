@@ -24,6 +24,7 @@
 		66C46480222D171B0006963A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66C46483222D171B0006963A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66C46485222D171B0006963A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66C4648C222D1B380006963A /* RxBasics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxBasics.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C1B3AFD08BF5621C90FB7FE6 /* Pods-RxBasics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxBasics.debug.xcconfig"; path = "Target Support Files/Pods-RxBasics/Pods-RxBasics.debug.xcconfig"; sourceTree = "<group>"; };
 		F75EDE9C5B8B399AF5768E56 /* Pods-RxBasics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxBasics.release.xcconfig"; path = "Target Support Files/Pods-RxBasics/Pods-RxBasics.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,6 +77,7 @@
 				66C46480222D171B0006963A /* Assets.xcassets */,
 				66C46482222D171B0006963A /* LaunchScreen.storyboard */,
 				66C46485222D171B0006963A /* Info.plist */,
+				66C4648C222D1B380006963A /* RxBasics.playground */,
 			);
 			path = RxBasics;
 			sourceTree = "<group>";
@@ -168,6 +170,7 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-RxBasics/Pods-RxBasics-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -175,6 +178,7 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
