@@ -12,9 +12,11 @@
 		66C4647F222D17190006963A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66C4647D222D17190006963A /* Main.storyboard */; };
 		66C46481222D171B0006963A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66C46480222D171B0006963A /* Assets.xcassets */; };
 		66C46484222D171B0006963A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66C46482222D171B0006963A /* LaunchScreen.storyboard */; };
+		72A37121E0D34D3DDBB16464 /* Pods_RxBasic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64234A87272BC25E202040EA /* Pods_RxBasic.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64234A87272BC25E202040EA /* Pods_RxBasic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxBasic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66C46476222D17190006963A /* RxBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66C46479222D17190006963A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66C4647B222D17190006963A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		66C46480222D171B0006963A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66C46483222D171B0006963A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66C46485222D171B0006963A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1B3AFD08BF5621C90FB7FE6 /* Pods-RxBasic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxBasic.debug.xcconfig"; path = "Target Support Files/Pods-RxBasic/Pods-RxBasic.debug.xcconfig"; sourceTree = "<group>"; };
+		F75EDE9C5B8B399AF5768E56 /* Pods-RxBasic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxBasic.release.xcconfig"; path = "Target Support Files/Pods-RxBasic/Pods-RxBasic.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72A37121E0D34D3DDBB16464 /* Pods_RxBasic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D4B16FB3D340D3529C89AB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1B3AFD08BF5621C90FB7FE6 /* Pods-RxBasic.debug.xcconfig */,
+				F75EDE9C5B8B399AF5768E56 /* Pods-RxBasic.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		66C4646D222D17190006963A = {
 			isa = PBXGroup;
 			children = (
 				66C46478222D17190006963A /* RxBasic */,
 				66C46477222D17190006963A /* Products */,
+				3D4B16FB3D340D3529C89AB1 /* Pods */,
+				7AB1BBCE19FE80B6F95EAA31 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +80,14 @@
 			path = RxBasic;
 			sourceTree = "<group>";
 		};
+		7AB1BBCE19FE80B6F95EAA31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64234A87272BC25E202040EA /* Pods_RxBasic.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66C46488222D171B0006963A /* Build configuration list for PBXNativeTarget "RxBasic" */;
 			buildPhases = (
+				AC26718FB485E31766209526 /* [CP] Check Pods Manifest.lock */,
+				66C4648B222D18220006963A /* SwiftLint */,
 				66C46472222D17190006963A /* Sources */,
 				66C46473222D17190006963A /* Frameworks */,
 				66C46474222D17190006963A /* Resources */,
+				179BB1933F14E8CF2713E5D0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +156,74 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		179BB1933F14E8CF2713E5D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxBasic/Pods-RxBasic-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxBasic/Pods-RxBasic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66C4648B222D18220006963A /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC26718FB485E31766209526 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxBasic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		66C46472222D17190006963A /* Sources */ = {
@@ -280,6 +375,7 @@
 		};
 		66C46489222D171B0006963A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1B3AFD08BF5621C90FB7FE6 /* Pods-RxBasic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -288,7 +384,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.vluxe.io.RxBasic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.ohara.kazuki.RxBasic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,6 +393,7 @@
 		};
 		66C4648A222D171B0006963A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F75EDE9C5B8B399AF5768E56 /* Pods-RxBasic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -305,7 +402,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.vluxe.io.RxBasic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.ohara.kazuki.RxBasic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
