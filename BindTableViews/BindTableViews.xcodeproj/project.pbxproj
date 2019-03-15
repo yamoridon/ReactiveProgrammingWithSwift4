@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06EC4602CF513676FD6D61A4 /* Pods_Bind_Table_Views.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C804568C044677DFFB5E5A7F /* Pods_Bind_Table_Views.framework */; };
+		06EC4602CF513676FD6D61A4 /* Pods_BindTableViews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C804568C044677DFFB5E5A7F /* Pods_BindTableViews.framework */; };
 		D2FA8B811DE4AA7700781E8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FA8B801DE4AA7700781E8D /* AppDelegate.swift */; };
 		D2FA8B831DE4AA7700781E8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FA8B821DE4AA7700781E8D /* ViewController.swift */; };
 		D2FA8B861DE4AA7700781E8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2FA8B841DE4AA7700781E8D /* Main.storyboard */; };
@@ -17,10 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		612F814E20996BDFBE342488 /* Pods-Bind Table Views.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bind Table Views.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bind Table Views/Pods-Bind Table Views.release.xcconfig"; sourceTree = "<group>"; };
-		C804568C044677DFFB5E5A7F /* Pods_Bind_Table_Views.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bind_Table_Views.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CCEF0DE7A123CCC80779A65E /* Pods-Bind Table Views.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bind Table Views.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bind Table Views/Pods-Bind Table Views.debug.xcconfig"; sourceTree = "<group>"; };
-		D2FA8B7D1DE4AA7700781E8D /* Bind Table Views.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bind Table Views.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		612F814E20996BDFBE342488 /* Pods-BindTableViews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BindTableViews.release.xcconfig"; path = "Pods/Target Support Files/Pods-BindTableViews/Pods-BindTableViews.release.xcconfig"; sourceTree = "<group>"; };
+		C804568C044677DFFB5E5A7F /* Pods_BindTableViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BindTableViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCEF0DE7A123CCC80779A65E /* Pods-BindTableViews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BindTableViews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BindTableViews/Pods-BindTableViews.debug.xcconfig"; sourceTree = "<group>"; };
+		D2FA8B7D1DE4AA7700781E8D /* BindTableViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BindTableViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2FA8B801DE4AA7700781E8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2FA8B821DE4AA7700781E8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D2FA8B851DE4AA7700781E8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -35,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06EC4602CF513676FD6D61A4 /* Pods_Bind_Table_Views.framework in Frameworks */,
+				06EC4602CF513676FD6D61A4 /* Pods_BindTableViews.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,8 +45,8 @@
 		2E7730E70D48AD512F8BB191 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CCEF0DE7A123CCC80779A65E /* Pods-Bind Table Views.debug.xcconfig */,
-				612F814E20996BDFBE342488 /* Pods-Bind Table Views.release.xcconfig */,
+				CCEF0DE7A123CCC80779A65E /* Pods-BindTableViews.debug.xcconfig */,
+				612F814E20996BDFBE342488 /* Pods-BindTableViews.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -54,7 +54,7 @@
 		79F3279D04733323EA501B44 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C804568C044677DFFB5E5A7F /* Pods_Bind_Table_Views.framework */,
+				C804568C044677DFFB5E5A7F /* Pods_BindTableViews.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -62,7 +62,7 @@
 		D2FA8B741DE4AA7700781E8D = {
 			isa = PBXGroup;
 			children = (
-				D2FA8B7F1DE4AA7700781E8D /* Bind Table Views */,
+				D2FA8B7F1DE4AA7700781E8D /* BindTableViews */,
 				D2FA8B7E1DE4AA7700781E8D /* Products */,
 				2E7730E70D48AD512F8BB191 /* Pods */,
 				79F3279D04733323EA501B44 /* Frameworks */,
@@ -72,12 +72,12 @@
 		D2FA8B7E1DE4AA7700781E8D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2FA8B7D1DE4AA7700781E8D /* Bind Table Views.app */,
+				D2FA8B7D1DE4AA7700781E8D /* BindTableViews.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D2FA8B7F1DE4AA7700781E8D /* Bind Table Views */ = {
+		D2FA8B7F1DE4AA7700781E8D /* BindTableViews */ = {
 			isa = PBXGroup;
 			children = (
 				D2FA8B801DE4AA7700781E8D /* AppDelegate.swift */,
@@ -88,15 +88,15 @@
 				D2FA8B8C1DE4AA7700781E8D /* Info.plist */,
 				D2FA8B921DE4AB0B00781E8D /* Developer.swift */,
 			);
-			path = "Bind Table Views";
+			path = BindTableViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D2FA8B7C1DE4AA7700781E8D /* Bind Table Views */ = {
+		D2FA8B7C1DE4AA7700781E8D /* BindTableViews */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2FA8B8F1DE4AA7700781E8D /* Build configuration list for PBXNativeTarget "Bind Table Views" */;
+			buildConfigurationList = D2FA8B8F1DE4AA7700781E8D /* Build configuration list for PBXNativeTarget "BindTableViews" */;
 			buildPhases = (
 				BB82BB075B83D7D675DB8CDD /* [CP] Check Pods Manifest.lock */,
 				668E5475223BCA0500368EF5 /* SwiftLint */,
@@ -109,9 +109,9 @@
 			);
 			dependencies = (
 			);
-			name = "Bind Table Views";
-			productName = "Bind Table Views";
-			productReference = D2FA8B7D1DE4AA7700781E8D /* Bind Table Views.app */;
+			name = BindTableViews;
+			productName = BindTableViews;
+			productReference = D2FA8B7D1DE4AA7700781E8D /* BindTableViews.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -131,7 +131,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D2FA8B781DE4AA7700781E8D /* Build configuration list for PBXProject "Bind Table Views" */;
+			buildConfigurationList = D2FA8B781DE4AA7700781E8D /* Build configuration list for PBXProject "BindTableViews" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -144,7 +144,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2FA8B7C1DE4AA7700781E8D /* Bind Table Views */,
+				D2FA8B7C1DE4AA7700781E8D /* BindTableViews */,
 			);
 		};
 /* End PBXProject section */
@@ -193,7 +193,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Bind Table Views-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-BindTableViews-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -206,7 +206,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Bind Table Views/Pods-Bind Table Views-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-BindTableViews/Pods-BindTableViews-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
@@ -219,7 +219,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bind Table Views/Pods-Bind Table Views-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BindTableViews/Pods-BindTableViews-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -370,11 +370,11 @@
 		};
 		D2FA8B901DE4AA7700781E8D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CCEF0DE7A123CCC80779A65E /* Pods-Bind Table Views.debug.xcconfig */;
+			baseConfigurationReference = CCEF0DE7A123CCC80779A65E /* Pods-BindTableViews.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "Bind Table Views/Info.plist";
+				INFOPLIST_FILE = BindTableViews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Navdeep.Bind-Table-Views";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -384,11 +384,11 @@
 		};
 		D2FA8B911DE4AA7700781E8D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 612F814E20996BDFBE342488 /* Pods-Bind Table Views.release.xcconfig */;
+			baseConfigurationReference = 612F814E20996BDFBE342488 /* Pods-BindTableViews.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "Bind Table Views/Info.plist";
+				INFOPLIST_FILE = BindTableViews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Navdeep.Bind-Table-Views";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -399,7 +399,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D2FA8B781DE4AA7700781E8D /* Build configuration list for PBXProject "Bind Table Views" */ = {
+		D2FA8B781DE4AA7700781E8D /* Build configuration list for PBXProject "BindTableViews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2FA8B8D1DE4AA7700781E8D /* Debug */,
@@ -408,7 +408,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2FA8B8F1DE4AA7700781E8D /* Build configuration list for PBXNativeTarget "Bind Table Views" */ = {
+		D2FA8B8F1DE4AA7700781E8D /* Build configuration list for PBXNativeTarget "BindTableViews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2FA8B901DE4AA7700781E8D /* Debug */,

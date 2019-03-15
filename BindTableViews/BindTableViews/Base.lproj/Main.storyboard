@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="t3w-v3-va7">
             <objects>
-                <viewController id="u6n-wN-KuU" customClass="ViewController" customModule="Bind_Table_Views" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="u6n-wN-KuU" customClass="ViewController" customModule="BindTableViews" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lrA-pQ-jN5"/>
                         <viewControllerLayoutGuide type="bottom" id="CF7-ar-bZ2"/>

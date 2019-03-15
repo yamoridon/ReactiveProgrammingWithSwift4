@@ -1,6 +1,6 @@
 platform :ios, '12.0'
 
-target 'Bind Table Views' do
+target 'BindTableViews' do
     use_frameworks!
     
     pod 'RxSwift'
