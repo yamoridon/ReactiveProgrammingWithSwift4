@@ -99,6 +99,7 @@
 			buildConfigurationList = D2FA8B8F1DE4AA7700781E8D /* Build configuration list for PBXNativeTarget "Bind Table Views" */;
 			buildPhases = (
 				BB82BB075B83D7D675DB8CDD /* [CP] Check Pods Manifest.lock */,
+				668E5475223BCA0500368EF5 /* SwiftLint */,
 				D2FA8B791DE4AA7700781E8D /* Sources */,
 				D2FA8B7A1DE4AA7700781E8D /* Frameworks */,
 				D2FA8B7B1DE4AA7700781E8D /* Resources */,
@@ -162,6 +163,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		668E5475223BCA0500368EF5 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint\n";
+			showEnvVarsInLog = 0;
+		};
 		BB82BB075B83D7D675DB8CDD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

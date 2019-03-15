@@ -5,4 +5,5 @@ target 'Bind Table Views' do
     
     pod 'RxSwift'
     pod 'RxCocoa'
+    pod 'SwiftLint'
 end
